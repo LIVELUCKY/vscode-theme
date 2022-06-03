@@ -1,0 +1,20 @@
+{
+    "name": "livelucky",
+    "displayName": "LiveLucky",
+    "description": "Best Theme Ever",
+    "version": "0.0.9",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [{
+            "label": "livelucky",
+            "uiTheme": "vs-dark",
+            "path": "./themes/livelucky-color-theme.json"
+        }]
+    }
+}
